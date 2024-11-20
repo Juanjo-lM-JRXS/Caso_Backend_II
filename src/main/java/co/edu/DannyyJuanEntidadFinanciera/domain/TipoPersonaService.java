@@ -13,6 +13,6 @@ public interface TipoPersonaService {
 
     TipoPersona edit(TipoPersona tp);
 
-    TipoPersona delete(int id_tp);
+    TipoPersona delete(int id);
     
 }

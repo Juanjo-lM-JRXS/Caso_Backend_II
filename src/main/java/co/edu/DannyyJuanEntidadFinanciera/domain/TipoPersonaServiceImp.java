@@ -1,5 +1,8 @@
 package co.edu.DannyyJuanEntidadFinanciera.domain;
 
+//mire los import 
+//reviselos
+
 import co.edu.DannyyJuanEntidadFinanciera.domain.TipoPersonaService;
 import co.edu.DannyyJuanEntidadFinanciera.domain.TipoPersonaRepository;
 import co.edu.DannyyJuanEntidadFinanciera.domain.TipoPersona;
@@ -36,12 +39,14 @@ public class TipoPersonaServiceImp implements TipoPersonaService {
         return tp_repositorio.save(tp);
     }
 
+    
     @Override
-
-    public TipoPersona delete(int id) {
-
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-
+    public TipoPersona delete(int id_tp) {
+        TipoPersona tipopersona = tp_repositorio.findById(id_tp);
+        if (tipopersona != null){
+            tp_repositorio.delete(tipopersona);
+        }
+        return tipopersona;
     }
 
 }
