@@ -48,4 +48,7 @@ public class SolicitudRest {
     public Solicitud deleteS(@PathVariable("id") int id) {
         return sservice.deleteT(id);
     }
+    
+    
+    // solo delete y get sintaxis maluca
 }
