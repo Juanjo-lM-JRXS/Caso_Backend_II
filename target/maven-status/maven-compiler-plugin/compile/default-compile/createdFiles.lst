@@ -1,0 +1,16 @@
+co\edu\MiguelEntidadFinanciera\infraestructura\ProductoRest.class
+co\edu\MiguelEntidadFinanciera\domain\ProductoServicelmp.class
+co\edu\MiguelEntidadFinanciera\domain\PersonaService.class
+co\edu\MiguelEntidadFinanciera\PersonasapiApplication.class
+co\edu\MiguelEntidadFinanciera\infraestructura\PersonaRest.class
+co\edu\MiguelEntidadFinanciera\domain\SolicitudService.class
+co\edu\MiguelEntidadFinanciera\infraestructura\SolicitudRest.class
+co\edu\MiguelEntidadFinanciera\domain\PersonaRepository.class
+co\edu\MiguelEntidadFinanciera\domain\Solicitud.class
+co\edu\MiguelEntidadFinanciera\domain\ProductoRepository.class
+co\edu\MiguelEntidadFinanciera\domain\SolicitudRepository.class
+co\edu\MiguelEntidadFinanciera\domain\ProductoService.class
+co\edu\MiguelEntidadFinanciera\domain\SolicitudServicelmp.class
+co\edu\MiguelEntidadFinanciera\domain\PersonaServiceImp.class
+co\edu\MiguelEntidadFinanciera\domain\Persona.class
+co\edu\MiguelEntidadFinanciera\domain\Producto.class
